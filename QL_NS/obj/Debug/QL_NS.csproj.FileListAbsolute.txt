@@ -1,0 +1,10 @@
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
