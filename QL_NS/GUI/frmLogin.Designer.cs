@@ -65,6 +65,7 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(194, 128);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(265, 22);
             this.txtPass.TabIndex = 1;
             // 
@@ -76,6 +77,7 @@
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnCancel
             // 

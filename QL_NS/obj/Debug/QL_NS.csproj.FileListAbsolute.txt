@@ -8,3 +8,4 @@ E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateR
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.exe
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.intro.resources
