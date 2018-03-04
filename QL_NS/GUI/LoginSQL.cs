@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
-using System.Data;
+using System.IO;
 
 namespace QL_NS.GUI
 {
@@ -18,6 +18,9 @@ namespace QL_NS.GUI
         {
             InitializeComponent();
         }
+
+
+
 
         private void openConnect()
         {
@@ -39,6 +42,36 @@ namespace QL_NS.GUI
 
         private void intro_Load(object sender, EventArgs e)
         {
+            /////////////// doc du lieu da luu
+            FileStream fs = new FileStream("config.ini",FileMode.OpenOrCreate,FileAccess.Read);
+            StreamReader sr = new StreamReader(fs);
+            try
+            {
+                int selectIndex;
+                this.txtServerName.Text = sr.ReadLine();
+                int.TryParse(sr.ReadLine(),out selectIndex);
+                this.cbbAuthen.SelectedIndex = selectIndex;
+                if (selectIndex == 0)
+                {
+                    this.txtLogin.Text = sr.ReadLine();
+                    this.txtPass.Text = sr.ReadLine();
+                    this.txtDatabaseName.Text = sr.ReadLine();
+                }
+                else
+                {
+                    this.txtDatabaseName.Text = sr.ReadLine();
+                }
+            }
+            catch 
+            {
+
+            }
+            finally
+            {
+                sr.Close();
+                fs.Close();
+            }
+            //////////////////////
             ActiveControl = txtServerName;
             cbbAuthen.SelectedIndex = 0;
 
@@ -142,6 +175,41 @@ namespace QL_NS.GUI
                     if (ENTITY.Connect.myconnect.State == ConnectionState.Open)
                     {
                         ENTITY.Connect.isConnect = true;
+
+                        if(cbSaveInfo.Checked)
+                        {
+
+                            //////////////luu du lieu vao file config.ini
+                            FileStream fs = new FileStream("config.ini", FileMode.OpenOrCreate, FileAccess.Write);
+                            StreamWriter sw = new StreamWriter(fs);
+                            try
+                            {
+                               
+                                sw.WriteLine(this.txtServerName.Text);
+                                sw.WriteLine(this.cbbAuthen.SelectedIndex);
+                                if (this.cbbAuthen.SelectedIndex == 0)
+                                {
+                                    sw.WriteLine(this.txtLogin.Text);
+                                    sw.WriteLine(this.txtPass.Text);
+                                    sw.WriteLine(this.txtDatabaseName.Text);
+                                }
+                                else
+                                {
+                                    sw.WriteLine(this.txtDatabaseName.Text);
+                                }
+                            }
+                            catch
+                            {
+
+                            }
+                            finally
+                            {
+                                sw.Close();
+                                fs.Close();
+                            }
+                            ///////////////////////
+                        }
+
                     }
                     this.intro_Load(null, null);
 
@@ -149,6 +217,7 @@ namespace QL_NS.GUI
                 catch (Exception ex)
                 {
                     MessageBox.Show(ex.Message,"ERROR",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                   
                     return;
                 }
                
@@ -156,6 +225,7 @@ namespace QL_NS.GUI
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+                
                 return;
             }
         }

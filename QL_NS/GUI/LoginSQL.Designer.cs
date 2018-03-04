@@ -148,7 +148,6 @@
             this.Controls.Add(this.lbldata);
             this.Controls.Add(this.label1);
             this.Name = "LoginSQL";
-            this.ShowInTaskbar = false;
             this.Load += new System.EventHandler(this.intro_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
