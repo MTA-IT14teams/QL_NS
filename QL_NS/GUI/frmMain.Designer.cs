@@ -32,7 +32,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuHT = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuHT_login = new System.Windows.Forms.ToolStripMenuItem();
-            this.đổiMậtKhẩuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mnuHT_changePass = new System.Windows.Forms.ToolStripMenuItem();
             this.quảnLíNgườiDùngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.xemNhậtKíHệThốngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,7 +99,7 @@
             // 
             this.mnuHT.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mnuHT_login,
-            this.đổiMậtKhẩuToolStripMenuItem,
+            this.mnuHT_changePass,
             this.quảnLíNgườiDùngToolStripMenuItem,
             this.toolStripMenuItem1,
             this.xemNhậtKíHệThốngToolStripMenuItem,
@@ -122,11 +122,12 @@
             this.mnuHT_login.Text = "Đăng Nhập";
             this.mnuHT_login.Click += new System.EventHandler(this.đăngNhậpToolStripMenuItem_Click);
             // 
-            // đổiMậtKhẩuToolStripMenuItem
+            // mnuHT_changePass
             // 
-            this.đổiMậtKhẩuToolStripMenuItem.Name = "đổiMậtKhẩuToolStripMenuItem";
-            this.đổiMậtKhẩuToolStripMenuItem.Size = new System.Drawing.Size(236, 26);
-            this.đổiMậtKhẩuToolStripMenuItem.Text = "Đổi Mật Khẩu";
+            this.mnuHT_changePass.Name = "mnuHT_changePass";
+            this.mnuHT_changePass.Size = new System.Drawing.Size(236, 26);
+            this.mnuHT_changePass.Text = "Đổi Mật Khẩu";
+            this.mnuHT_changePass.Click += new System.EventHandler(this.mnuHT_changePass_Click);
             // 
             // quảnLíNgườiDùngToolStripMenuItem
             // 
@@ -450,7 +451,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnuHT;
         private System.Windows.Forms.ToolStripMenuItem mnuHT_login;
-        private System.Windows.Forms.ToolStripMenuItem đổiMậtKhẩuToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem mnuHT_changePass;
         private System.Windows.Forms.ToolStripMenuItem quảnLíNgườiDùngToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem xemNhậtKíHệThốngToolStripMenuItem;

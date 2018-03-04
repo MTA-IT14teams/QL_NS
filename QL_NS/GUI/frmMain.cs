@@ -75,5 +75,10 @@ namespace QL_NS
                 frmMain_Load(null, null);
             }
         }
+
+        private void mnuHT_changePass_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

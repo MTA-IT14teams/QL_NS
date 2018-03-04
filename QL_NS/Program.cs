@@ -17,7 +17,7 @@ namespace QL_NS
             
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GUI.intro());
+            Application.Run(new GUI.LoginSQL());
         }
     }
 }

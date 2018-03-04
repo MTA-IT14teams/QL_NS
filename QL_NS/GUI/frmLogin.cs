@@ -14,10 +14,16 @@ namespace QL_NS.GUI
 {
     public partial class frmLogin : Form
     {
+        public frmLogin()
+        {
+            InitializeComponent();
+        }
+
         public static string ID_USER = "";
-       private SqlConnection con = new SqlConnection("Data Source=DESKTOP-UN97D4V\\SQLEXPRESS;Initial Catalog=QL_NhanSu;Persist Security Info=True;User ID=sa; Password=icui4cu");
+        public static string USER_NAME = "";
+       // private SqlConnection con = new SqlConnection("Data Source=DESKTOP-UN97D4V\\SQLEXPRESS;Initial Catalog=QL_NhanSu;Persist Security Info=True;User ID=sa; Password=icui4cu");
        // Data Source = DESKTOP - UN97D4V\SQLEXPRESS;Initial Catalog = QL_NhanSu; Persist Security Info=True;User ID = sa; Password=***********
-        private void openConnect()
+      /*  private void openConnect()
         {
             if (con.State == ConnectionState.Closed)
             {
@@ -31,15 +37,15 @@ namespace QL_NS.GUI
             {
                 con.Close();
             }
-        }
+        }*/
 
         private string getID(string username, string pass)
         {
             string id = "";
             try
             {
-                openConnect();
-                SqlCommand cmd = new SqlCommand("Select * from tbl_users where user_name ='" + username + "' and pass ='" + pass + "'", con);
+               // openConnect();
+                SqlCommand cmd = new SqlCommand("Select * from tbl_users where user_name ='" + username + "' and pass ='" + pass + "'", ENTITY.Connect.myconnect);
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -57,17 +63,14 @@ namespace QL_NS.GUI
             }
             finally
             {
-                closeConnect();
+                //closeConnect();
             }
 
             return id;
 
         }
 
-        public frmLogin()
-        {
-            InitializeComponent();
-        }
+      
 
         private void btnCancel_Click(object sender, EventArgs e)
         {
@@ -80,6 +83,7 @@ namespace QL_NS.GUI
             ID_USER = getID(txtUser.Text, txtPass.Text);
             if(ID_USER!= "")
             {
+                USER_NAME = txtUser.Text;
                 frmMain.isLogin = true;
                 frmMain frm = new frmMain();
                 frm.Show();
@@ -91,6 +95,11 @@ namespace QL_NS.GUI
                 MessageBox.Show("Taì khoản hoặc mật khẩu không đúng.\n Hãy kiểm tra lại.\n", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

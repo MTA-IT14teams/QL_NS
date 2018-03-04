@@ -39,41 +39,46 @@
             // lblTK
             // 
             this.lblTK.AutoSize = true;
-            this.lblTK.Location = new System.Drawing.Point(75, 68);
+            this.lblTK.Location = new System.Drawing.Point(56, 55);
+            this.lblTK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTK.Name = "lblTK";
-            this.lblTK.Size = new System.Drawing.Size(73, 17);
+            this.lblTK.Size = new System.Drawing.Size(56, 13);
             this.lblTK.TabIndex = 0;
             this.lblTK.Text = "Tài Khoản";
             // 
             // lblMK
             // 
             this.lblMK.AutoSize = true;
-            this.lblMK.Location = new System.Drawing.Point(75, 133);
+            this.lblMK.Location = new System.Drawing.Point(56, 108);
+            this.lblMK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMK.Name = "lblMK";
-            this.lblMK.Size = new System.Drawing.Size(68, 17);
+            this.lblMK.Size = new System.Drawing.Size(53, 13);
             this.lblMK.TabIndex = 0;
             this.lblMK.Text = "Mật Khẩu";
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(194, 68);
+            this.txtUser.Location = new System.Drawing.Point(146, 55);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(265, 22);
+            this.txtUser.Size = new System.Drawing.Size(200, 20);
             this.txtUser.TabIndex = 1;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(194, 128);
+            this.txtPass.Location = new System.Drawing.Point(146, 104);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
-            this.txtPass.Size = new System.Drawing.Size(265, 22);
+            this.txtPass.Size = new System.Drawing.Size(200, 20);
             this.txtPass.TabIndex = 1;
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(194, 226);
+            this.btnLogin.Location = new System.Drawing.Point(146, 184);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(102, 33);
+            this.btnLogin.Size = new System.Drawing.Size(76, 27);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
@@ -81,9 +86,10 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(362, 226);
+            this.btnCancel.Location = new System.Drawing.Point(272, 184);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(97, 33);
+            this.btnCancel.Size = new System.Drawing.Size(73, 27);
             this.btnCancel.TabIndex = 2;
             this.btnCancel.Text = "Thoát";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -91,9 +97,9 @@
             // 
             // frmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(575, 311);
+            this.ClientSize = new System.Drawing.Size(431, 253);
             this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
@@ -101,8 +107,10 @@
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.lblMK);
             this.Controls.Add(this.lblTK);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "frmLogin";
             this.Text = "Đăng Nhập";
+            this.Load += new System.EventHandler(this.frmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
