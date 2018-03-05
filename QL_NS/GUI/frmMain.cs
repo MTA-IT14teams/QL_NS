@@ -80,5 +80,12 @@ namespace QL_NS
         {
 
         }
+
+        private void phòngBanToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUI.frmPhongBan pb = new GUI.frmPhongBan();
+            pb.Show();
+            //this.Hide();
+        }
     }
 }
