@@ -11,6 +11,6 @@ namespace QL_NS.ENTITY
    public static class Connect
     {
         public static bool isConnect = false;
-       public static SqlConnection myconnect = new SqlConnection(ConnectString.StringConnect);
+        public static SqlConnection myconnect = new SqlConnection(ConnectString.StringConnect);
     }
 }
