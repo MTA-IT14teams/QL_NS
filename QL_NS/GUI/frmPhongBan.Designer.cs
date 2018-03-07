@@ -39,15 +39,15 @@
             this.txtMaTP = new System.Windows.Forms.TextBox();
             this.txtDiaDiem = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnThem = new System.Windows.Forms.Button();
-            this.btnSua = new System.Windows.Forms.Button();
-            this.btnXoa = new System.Windows.Forms.Button();
-            this.txtNgayNC = new System.Windows.Forms.TextBox();
             this.MaPB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TenPB = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MaTP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DiaDiem = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayNC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnThem = new System.Windows.Forms.Button();
+            this.btnSua = new System.Windows.Forms.Button();
+            this.btnXoa = new System.Windows.Forms.Button();
+            this.txtNgayNC = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -55,6 +55,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Location = new System.Drawing.Point(433, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(189, 24);
@@ -148,6 +149,37 @@
             this.dataGridView1.Size = new System.Drawing.Size(872, 279);
             this.dataGridView1.TabIndex = 13;
             // 
+            // MaPB
+            // 
+            this.MaPB.DataPropertyName = "MaPB";
+            this.MaPB.HeaderText = "Mã Phòng Ban";
+            this.MaPB.Name = "MaPB";
+            // 
+            // TenPB
+            // 
+            this.TenPB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenPB.DataPropertyName = "TenPB";
+            this.TenPB.HeaderText = "Tên Phòng Ban";
+            this.TenPB.Name = "TenPB";
+            // 
+            // MaTP
+            // 
+            this.MaTP.DataPropertyName = "MaTP";
+            this.MaTP.HeaderText = "Mã Trưởng Phòng";
+            this.MaTP.Name = "MaTP";
+            // 
+            // DiaDiem
+            // 
+            this.DiaDiem.DataPropertyName = "DiaDiem";
+            this.DiaDiem.HeaderText = "Địa Điểm";
+            this.DiaDiem.Name = "DiaDiem";
+            // 
+            // NgayNC
+            // 
+            this.NgayNC.DataPropertyName = "NgayNC";
+            this.NgayNC.HeaderText = "Ngày Nhận Chức";
+            this.NgayNC.Name = "NgayNC";
+            // 
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(864, 61);
@@ -184,37 +216,6 @@
             this.txtNgayNC.Name = "txtNgayNC";
             this.txtNgayNC.Size = new System.Drawing.Size(262, 20);
             this.txtNgayNC.TabIndex = 18;
-            // 
-            // MaPB
-            // 
-            this.MaPB.DataPropertyName = "MaPB";
-            this.MaPB.HeaderText = "Mã Phòng Ban";
-            this.MaPB.Name = "MaPB";
-            // 
-            // TenPB
-            // 
-            this.TenPB.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.TenPB.DataPropertyName = "TenPB";
-            this.TenPB.HeaderText = "Tên Phòng Ban";
-            this.TenPB.Name = "TenPB";
-            // 
-            // MaTP
-            // 
-            this.MaTP.DataPropertyName = "MaTP";
-            this.MaTP.HeaderText = "Mã Trưởng Phòng";
-            this.MaTP.Name = "MaTP";
-            // 
-            // DiaDiem
-            // 
-            this.DiaDiem.DataPropertyName = "DiaDiem";
-            this.DiaDiem.HeaderText = "Địa Điểm";
-            this.DiaDiem.Name = "DiaDiem";
-            // 
-            // NgayNC
-            // 
-            this.NgayNC.DataPropertyName = "NgayNC";
-            this.NgayNC.HeaderText = "Ngày Nhận Chức";
-            this.NgayNC.Name = "NgayNC";
             // 
             // frmPhongBan
             // 
