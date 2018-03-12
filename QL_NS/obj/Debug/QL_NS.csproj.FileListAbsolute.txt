@@ -70,3 +70,6 @@ E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.G
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
 >>>>>>> e5293b0f18b63472dbe05cabc88a67f3d2bde089
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
