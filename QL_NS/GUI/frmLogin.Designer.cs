@@ -39,7 +39,7 @@
             // lblTK
             // 
             this.lblTK.AutoSize = true;
-            this.lblTK.Location = new System.Drawing.Point(56, 55);
+            this.lblTK.Location = new System.Drawing.Point(35, 40);
             this.lblTK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTK.Name = "lblTK";
             this.lblTK.Size = new System.Drawing.Size(56, 13);
@@ -49,7 +49,7 @@
             // lblMK
             // 
             this.lblMK.AutoSize = true;
-            this.lblMK.Location = new System.Drawing.Point(56, 108);
+            this.lblMK.Location = new System.Drawing.Point(35, 93);
             this.lblMK.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblMK.Name = "lblMK";
             this.lblMK.Size = new System.Drawing.Size(53, 13);
@@ -58,16 +58,16 @@
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(146, 55);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUser.Location = new System.Drawing.Point(125, 40);
+            this.txtUser.Margin = new System.Windows.Forms.Padding(2);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(200, 20);
-            this.txtUser.TabIndex = 1;
+            this.txtUser.TabIndex = 0;
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(146, 104);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPass.Location = new System.Drawing.Point(125, 89);
+            this.txtPass.Margin = new System.Windows.Forms.Padding(2);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(200, 20);
@@ -75,8 +75,8 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(146, 184);
-            this.btnLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnLogin.Location = new System.Drawing.Point(125, 169);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(76, 27);
             this.btnLogin.TabIndex = 2;
@@ -86,11 +86,11 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(272, 184);
-            this.btnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCancel.Location = new System.Drawing.Point(251, 169);
+            this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(73, 27);
-            this.btnCancel.TabIndex = 2;
+            this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Thoát";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
@@ -99,7 +99,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(431, 253);
+            this.ClientSize = new System.Drawing.Size(371, 244);
             this.ControlBox = false;
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnLogin);
@@ -107,7 +107,7 @@
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.lblMK);
             this.Controls.Add(this.lblTK);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frmLogin";
             this.Text = "Đăng Nhập";
             this.Load += new System.EventHandler(this.frmLogin_Load);

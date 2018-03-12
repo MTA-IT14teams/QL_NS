@@ -87,5 +87,11 @@ namespace QL_NS
             pb.Show();
             //this.Hide();
         }
+
+        private void nhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUI.frmNhanVien nv = new GUI.frmNhanVien();
+            nv.Show();
+        }
     }
 }

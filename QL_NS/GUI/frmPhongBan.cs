@@ -21,10 +21,6 @@ namespace QL_NS.GUI
 
         private void KetNoi()
         {
-           // SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
-           // SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-2R414VO\SQLEXPRESS;Initial Catalog=NhanVien;Integrated Security=True");
-           // ENTITY.Connect.myconnect.Open();
-           // conn.Open();
             try
             {
                 string sql = "select *from PhongBan";
@@ -32,31 +28,29 @@ namespace QL_NS.GUI
                 SqlDataAdapter adt = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 adt.Fill(dt);
-                dataGridView1.DataSource = dt;
+                dtgPhongBan.DataSource = dt;
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            
         }
 
         private void LoadData()
         {
             txtMaPB.DataBindings.Clear();  // xóa dữ liệu có sẵn trong textbox
-            txtMaPB.DataBindings.Add("Text", dataGridView1.DataSource, "MaPB");
+            txtMaPB.DataBindings.Add("Text", dtgPhongBan.DataSource, "MaPB");
 
             txtTenPB.DataBindings.Clear();
-            txtTenPB.DataBindings.Add("Text", dataGridView1.DataSource, "TenPB");
+            txtTenPB.DataBindings.Add("Text", dtgPhongBan.DataSource, "TenPB");
 
             txtMaTP.DataBindings.Clear();
-            txtMaTP.DataBindings.Add("Text", dataGridView1.DataSource, "MaTP");
+            txtMaTP.DataBindings.Add("Text", dtgPhongBan.DataSource, "MaTP");
 
             txtDiaDiem.DataBindings.Clear();
-            txtDiaDiem.DataBindings.Add("Text", dataGridView1.DataSource, "DiaDiem");
+            txtDiaDiem.DataBindings.Add("Text", dtgPhongBan.DataSource, "DiaDiem");
 
-           // dtpNgayNC.DataBindings.Clear();
-           // dtpNgayNC.DataBindings.Add("Text", dataGridView1.DataSource, "NgayNC");
+            
         }
 
 
@@ -66,14 +60,30 @@ namespace QL_NS.GUI
             LoadData();
         }
 
-        string them;
-        private void btnThem_Click(object sender, EventArgs e)
+        private void dtgPhongBan_RowPrePaint(object sender, DataGridViewRowPrePaintEventArgs e)
+        {
+            dtgPhongBan.Rows[e.RowIndex].Cells["STT"].Value = e.RowIndex + 1;
+        }
+
+        private void dtgPhongBan_SelectionChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                dtgPhongBan.CurrentRow.Selected = true;
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void btnThem_Click_1(object sender, EventArgs e)
         {
             try
             {
                 SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
                 conn.Open();
-                them = "insert into PhongBan values ('" + txtMaPB.Text + "', N'" + txtTenPB.Text + "', '" + txtMaTP.Text + "', N'" + txtDiaDiem.Text + "','"+txtNgayNC.Text+"')";
+                string them = "insert into PhongBan values ('" + txtMaPB.Text + "', N'" + txtTenPB.Text + "', '" + txtMaTP.Text + "', N'" + txtDiaDiem.Text + "','" + dtpNgayNC.Text + "')";
                 SqlCommand cmd = new SqlCommand(them, conn);
                 cmd.ExecuteReader();
                 KetNoi();
@@ -83,16 +93,15 @@ namespace QL_NS.GUI
             {
                 MessageBox.Show("Lỗi!" + ex.Message);
             }
-            
         }
 
-        string sua;
-        private void btnSua_Click(object sender, EventArgs e)
+        private void btnSua_Click_1(object sender, EventArgs e)
         {
-             try{
+            try
+            {
                 SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
                 conn.Open();
-                sua = "update PhongBan set MaPB = '" + txtMaPB.Text + "', TenPB = N'" + txtTenPB.Text + "',MaTP = '" + txtMaTP.Text + "',DiaDiem = N'" + txtDiaDiem.Text + "',NgayNC = '" + txtNgayNC.Text + "' where MaPB = '" + txtMaPB.Text + "'";
+                string sua = "update PhongBan set MaPB = '" + txtMaPB.Text + "', TenPB = N'" + txtTenPB.Text + "',MaTP = '" + txtMaTP.Text + "',DiaDiem = N'" + txtDiaDiem.Text + "',NgayNC = '" + dtpNgayNC.Text + "' where MaPB = '" + txtMaPB.Text + "'";
                 SqlCommand commandSua = new SqlCommand(sua, conn);
                 commandSua.ExecuteNonQuery();
                 KetNoi();
@@ -104,14 +113,13 @@ namespace QL_NS.GUI
             }
         }
 
-        string xoa;
-        private void btnXoa_Click(object sender, EventArgs e)
+        private void btnXoa_Click_1(object sender, EventArgs e)
         {
             try
             {
                 SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
                 conn.Open();
-                xoa = "delete PhongBan where MaPB = '"+txtMaPB.Text+"'";
+                string xoa = "delete PhongBan where MaPB = '" + txtMaPB.Text + "'";
                 SqlCommand commandXoa = new SqlCommand(xoa, conn);
                 commandXoa.ExecuteNonQuery();
                 KetNoi();
@@ -120,6 +128,33 @@ namespace QL_NS.GUI
             catch
             {
                 MessageBox.Show("Lỗi, Không sửa được! Vui lòng kiểm tra lại");
+            }
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            KetNoi();
+            LoadData();
+        }
+
+        private void btnTimKiem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
+                conn.Open();
+                string sqlTimKiem = "SELECT *FROM PhongBan where MaPB = '" + txtTimKiem.Text.Trim() + "'";
+                SqlCommand cmd = new SqlCommand(sqlTimKiem, conn);
+                cmd.Parameters.AddWithValue("MaNV", txtTimKiem.Text.Trim());
+                cmd.ExecuteNonQuery();
+                SqlDataReader dr = cmd.ExecuteReader();
+                DataTable dt = new DataTable();
+                dt.Load(dr);
+                dtgPhongBan.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
     }

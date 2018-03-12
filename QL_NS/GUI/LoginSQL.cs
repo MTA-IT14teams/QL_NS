@@ -27,7 +27,6 @@ namespace QL_NS.GUI
             if (ENTITY.Connect.myconnect.State == ConnectionState.Closed)
             {
                 ENTITY.Connect.myconnect.Open();
-              //  ENTITY.Connect.isConnect = true;
             }
         }
 
@@ -124,11 +123,9 @@ namespace QL_NS.GUI
             }
             else
             {
-
                 this.txtLogin.Enabled = false;
                 this.txtPass.Enabled = false;
                 this.cbSaveInfo.Enabled = true;
-
             }
         }
 
@@ -167,7 +164,7 @@ namespace QL_NS.GUI
                 ENTITY.ConnectString.Password = txtPass.Text;
 
                 ENTITY.ConnectString.TaoChuoiKetNoi();
-                //
+                
                 ENTITY.Connect.myconnect = new SqlConnection(ENTITY.ConnectString.StringConnect);
                 try
                 {
