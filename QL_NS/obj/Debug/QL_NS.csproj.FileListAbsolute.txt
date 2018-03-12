@@ -39,3 +39,16 @@ C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResourc
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.exe
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
