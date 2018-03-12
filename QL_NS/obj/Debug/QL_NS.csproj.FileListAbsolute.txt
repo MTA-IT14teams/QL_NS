@@ -36,3 +36,4 @@ C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resour
 C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
 C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
 C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
