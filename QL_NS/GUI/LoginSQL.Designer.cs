@@ -92,17 +92,21 @@
             // 
             // btnLogin
             // 
+            this.btnLogin.BackColor = System.Drawing.Color.LimeGreen;
             resources.ApplyResources(this.btnLogin, "btnLogin");
             this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.UseVisualStyleBackColor = false;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // btnExit
             // 
+            this.btnExit.AutoEllipsis = true;
+            this.btnExit.BackColor = System.Drawing.Color.LimeGreen;
             resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnExit.Name = "btnExit";
-            this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.UseVisualStyleBackColor = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
             // cbSaveInfo
@@ -133,7 +137,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.BackColor = System.Drawing.Color.DodgerBlue;
             this.ControlBox = false;
             this.Controls.Add(this.cbSaveInfo);
             this.Controls.Add(this.btnExit);

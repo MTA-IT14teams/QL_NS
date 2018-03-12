@@ -332,14 +332,18 @@
   <data name="&gt;&gt;txtPass.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btnLogin.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="btnLogin.Font" type="System.Drawing.Font, System.Drawing">
     <value>Lucida Fax, 10pt, style=Bold</value>
   </data>
   <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>206, 368</value>
+    <value>226, 368</value>
   </data>
   <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
+    <value>58, 46</value>
   </data>
   <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -359,14 +363,17 @@
   <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="btnExit.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="btnExit.Font" type="System.Drawing.Font, System.Drawing">
     <value>Lucida Fax, 10pt</value>
   </data>
   <data name="btnExit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>339, 368</value>
+    <value>314, 368</value>
   </data>
   <data name="btnExit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>58, 58</value>
+    <value>58, 46</value>
   </data>
   <data name="btnExit.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -506,7 +513,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>512, 435</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
