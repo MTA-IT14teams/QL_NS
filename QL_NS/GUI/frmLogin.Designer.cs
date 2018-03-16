@@ -82,11 +82,11 @@
             // 
             // btnLogin
             // 
-            this.btnLogin.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnLogin.Location = new System.Drawing.Point(542, 64);
+            this.btnLogin.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnLogin.Location = new System.Drawing.Point(542, 52);
             this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(76, 30);
+            this.btnLogin.Size = new System.Drawing.Size(76, 42);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Đăng Nhập";
             this.btnLogin.UseVisualStyleBackColor = false;
@@ -94,11 +94,11 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnCancel.Location = new System.Drawing.Point(542, 113);
+            this.btnCancel.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnCancel.Location = new System.Drawing.Point(545, 104);
             this.btnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(73, 30);
+            this.btnCancel.Size = new System.Drawing.Size(73, 42);
             this.btnCancel.TabIndex = 3;
             this.btnCancel.Text = "Thoát";
             this.btnCancel.UseVisualStyleBackColor = false;

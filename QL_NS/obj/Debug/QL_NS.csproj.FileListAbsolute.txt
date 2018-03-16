@@ -73,3 +73,14 @@ E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.c
 E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
 E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.exe
 E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache

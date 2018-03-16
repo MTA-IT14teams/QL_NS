@@ -37,12 +37,12 @@
             this.cbbAuthen = new System.Windows.Forms.ComboBox();
             this.txtLogin = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.btnLogin = new System.Windows.Forms.Button();
-            this.btnExit = new System.Windows.Forms.Button();
             this.cbSaveInfo = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.txtDatabaseName = new System.Windows.Forms.TextBox();
             this.lbldata = new System.Windows.Forms.Label();
+            this.btnExit = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -90,25 +90,6 @@
             resources.ApplyResources(this.txtPass, "txtPass");
             this.txtPass.Name = "txtPass";
             // 
-            // btnLogin
-            // 
-            this.btnLogin.BackColor = System.Drawing.Color.LimeGreen;
-            resources.ApplyResources(this.btnLogin, "btnLogin");
-            this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.UseVisualStyleBackColor = false;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
-            // 
-            // btnExit
-            // 
-            this.btnExit.AutoEllipsis = true;
-            this.btnExit.BackColor = System.Drawing.Color.LimeGreen;
-            resources.ApplyResources(this.btnExit, "btnExit");
-            this.btnExit.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnExit.Name = "btnExit";
-            this.btnExit.UseVisualStyleBackColor = false;
-            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
-            // 
             // cbSaveInfo
             // 
             resources.ApplyResources(this.cbSaveInfo, "cbSaveInfo");
@@ -132,6 +113,27 @@
             // 
             resources.ApplyResources(this.lbldata, "lbldata");
             this.lbldata.Name = "lbldata";
+            // 
+            // btnExit
+            // 
+            this.btnExit.AutoEllipsis = true;
+            this.btnExit.BackColor = System.Drawing.Color.LightYellow;
+            resources.ApplyResources(this.btnExit, "btnExit");
+            this.btnExit.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnExit.Image = global::QL_NS.Properties.Resources.back3;
+            this.btnExit.Name = "btnExit";
+            this.btnExit.UseVisualStyleBackColor = false;
+            this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnLogin
+            // 
+            this.btnLogin.BackColor = System.Drawing.Color.LightYellow;
+            resources.ApplyResources(this.btnLogin, "btnLogin");
+            this.btnLogin.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnLogin.Image = global::QL_NS.Properties.Resources.login1;
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.UseVisualStyleBackColor = false;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // LoginSQL
             // 
