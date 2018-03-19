@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+.Page{
+	font-size:20px;
+	font-family:arial;
+	color:black;
+}
+/* .Login{
+	font-size:18px;
+} */
+.imgĐangNhapServer{
+	margin-left:400px;
+}
+.imgĐangNhap{
+	margin-left:400px;
+}
+/* .Main{
+	font-size: 18px;
+} */
+.imgmenu{
+	margin-left:300px;
+}
+/* .Timkiem{
+	font-size: 18px;
+} */
+.imgNhanVien{
+	margin-left:230px;
+}
+.imgPhongBan{
+	margin-left:230px;
+}

@@ -231,7 +231,6 @@
             this.dtgPhongBan.Name = "dtgPhongBan";
             this.dtgPhongBan.Size = new System.Drawing.Size(642, 380);
             this.dtgPhongBan.TabIndex = 24;
-            this.dtgPhongBan.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgPhongBan_CellContentClick);
             this.dtgPhongBan.RowPrePaint += new System.Windows.Forms.DataGridViewRowPrePaintEventHandler(this.dtgPhongBan_RowPrePaint);
             this.dtgPhongBan.SelectionChanged += new System.EventHandler(this.dtgPhongBan_SelectionChanged);
             // 
@@ -281,7 +280,7 @@
             this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(14, 175);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(121, 19);
+            this.label4.Size = new System.Drawing.Size(120, 19);
             this.label4.TabIndex = 23;
             this.label4.Text = "Mã Trưởng Phòng";
             // 
