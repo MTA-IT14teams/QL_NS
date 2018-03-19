@@ -157,5 +157,10 @@ namespace QL_NS.GUI
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void dtgPhongBan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
