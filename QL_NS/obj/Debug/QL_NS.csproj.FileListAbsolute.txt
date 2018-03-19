@@ -53,13 +53,10 @@ C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBa
 C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
 C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
 C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
-<<<<<<< HEAD
 =======
 C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
 >>>>>>> 1302c566aab03e7ad676221243633e6597250892
 C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
-=======
->>>>>>> 1302c566aab03e7ad676221243633e6597250892
 >>>>>>> b570de76e52a4c04970ca730c1a9ca4ca5333bb8
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.exe
 E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
