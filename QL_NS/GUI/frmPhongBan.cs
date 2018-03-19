@@ -18,7 +18,7 @@ namespace QL_NS.GUI
         {
             InitializeComponent();
         }
-
+        //kết nối
         private void KetNoi()
         {
             try
@@ -35,7 +35,7 @@ namespace QL_NS.GUI
                 MessageBox.Show(ex.Message);
             }
         }
-
+        //load data
         private void LoadData()
         {
             txtMaPB.DataBindings.Clear();  // xóa dữ liệu có sẵn trong textbox
@@ -53,7 +53,7 @@ namespace QL_NS.GUI
             
         }
 
-
+        //load
         private void frmPhongBan_Load(object sender, EventArgs e)
         {
             KetNoi();
@@ -76,7 +76,7 @@ namespace QL_NS.GUI
                 //MessageBox.Show(ex.Message);
             }
         }
-
+        //thêm
         private void btnThem_Click_1(object sender, EventArgs e)
         {
             try
@@ -94,7 +94,7 @@ namespace QL_NS.GUI
                 MessageBox.Show("Lỗi!" + ex.Message);
             }
         }
-
+        //sửa
         private void btnSua_Click_1(object sender, EventArgs e)
         {
             try
@@ -112,7 +112,7 @@ namespace QL_NS.GUI
                 MessageBox.Show("Lỗi, Không sửa được! Vui lòng kiểm tra lại");
             }
         }
-
+        //xóa
         private void btnXoa_Click_1(object sender, EventArgs e)
         {
             try
@@ -130,13 +130,13 @@ namespace QL_NS.GUI
                 MessageBox.Show("Lỗi, Không sửa được! Vui lòng kiểm tra lại");
             }
         }
-
+        //refresh
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             KetNoi();
             LoadData();
         }
-
+        //tìm kiếm
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
             try
@@ -159,6 +159,41 @@ namespace QL_NS.GUI
         }
 
         private void dtgPhongBan_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void txtTimKiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaPB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTenPB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaTP_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDiaDiem_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dtpNgayNC_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -67,6 +67,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 38;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btnRefresh
             // 
@@ -92,6 +93,7 @@
             this.dtpNgayNC.Size = new System.Drawing.Size(221, 20);
             this.dtpNgayNC.TabIndex = 36;
             this.dtpNgayNC.Value = new System.DateTime(2018, 3, 9, 0, 0, 0, 0);
+            this.dtpNgayNC.ValueChanged += new System.EventHandler(this.dtpNgayNC_ValueChanged);
             // 
             // btnTimKiem
             // 
@@ -114,6 +116,7 @@
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(155, 20);
             this.txtTimKiem.TabIndex = 34;
+            this.txtTimKiem.TextChanged += new System.EventHandler(this.txtTimKiem_TextChanged);
             // 
             // btnXoa
             // 
@@ -167,6 +170,7 @@
             this.txtDiaDiem.Name = "txtDiaDiem";
             this.txtDiaDiem.Size = new System.Drawing.Size(221, 20);
             this.txtDiaDiem.TabIndex = 30;
+            this.txtDiaDiem.TextChanged += new System.EventHandler(this.txtDiaDiem_TextChanged);
             // 
             // txtMaTP
             // 
@@ -174,6 +178,7 @@
             this.txtMaTP.Name = "txtMaTP";
             this.txtMaTP.Size = new System.Drawing.Size(221, 20);
             this.txtMaTP.TabIndex = 29;
+            this.txtMaTP.TextChanged += new System.EventHandler(this.txtMaTP_TextChanged);
             // 
             // txtTenPB
             // 
@@ -181,6 +186,7 @@
             this.txtTenPB.Name = "txtTenPB";
             this.txtTenPB.Size = new System.Drawing.Size(221, 20);
             this.txtTenPB.TabIndex = 28;
+            this.txtTenPB.TextChanged += new System.EventHandler(this.txtTenPB_TextChanged);
             // 
             // txtMaPB
             // 
@@ -188,6 +194,7 @@
             this.txtMaPB.Name = "txtMaPB";
             this.txtMaPB.Size = new System.Drawing.Size(221, 20);
             this.txtMaPB.TabIndex = 27;
+            this.txtMaPB.TextChanged += new System.EventHandler(this.txtMaPB_TextChanged);
             // 
             // label6
             // 
