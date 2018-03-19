@@ -93,5 +93,17 @@ namespace QL_NS
             GUI.frmNhanVien nv = new GUI.frmNhanVien();
             nv.Show();
         }
+<<<<<<< HEAD
+=======
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
+>>>>>>> 0a1cd9ae067f2d587ba5a1897663b8de08a2c162
     }
 }

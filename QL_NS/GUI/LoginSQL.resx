@@ -236,6 +236,9 @@
   <data name="txtServerName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="txtServerName.Text" xml:space="preserve">
+    <value>ADMIN-PC\SQLSERVEREXPRESS</value>
+  </data>
   <data name="&gt;&gt;txtServerName.Name" xml:space="preserve">
     <value>txtServerName</value>
   </data>
@@ -430,6 +433,9 @@
   </data>
   <data name="txtDatabaseName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="txtDatabaseName.Text" xml:space="preserve">
+    <value>CongTy</value>
   </data>
   <data name="&gt;&gt;txtDatabaseName.Name" xml:space="preserve">
     <value>txtDatabaseName</value>
