@@ -94,11 +94,11 @@ namespace QL_NS
             nv.Show();
         }
 
-<<<<<<< HEAD
         private void pictureBox1_Click(object sender, EventArgs e)
-=======
+        {
+
+        }
         private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
->>>>>>> 6e022eb18538a77e4937ffc36baa5dd4f0c3babd
         {
 
         }

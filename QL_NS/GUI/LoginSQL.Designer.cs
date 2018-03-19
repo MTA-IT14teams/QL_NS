@@ -49,26 +49,31 @@
             // 
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
             resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
             resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtServerName
             // 
             resources.ApplyResources(this.txtServerName, "txtServerName");
             this.txtServerName.Name = "txtServerName";
+            this.txtServerName.TextChanged += new System.EventHandler(this.txtServerName_TextChanged);
             // 
             // cbbAuthen
             // 
@@ -84,11 +89,13 @@
             // 
             resources.ApplyResources(this.txtLogin, "txtLogin");
             this.txtLogin.Name = "txtLogin";
+            this.txtLogin.TextChanged += new System.EventHandler(this.txtLogin_TextChanged);
             // 
             // txtPass
             // 
             resources.ApplyResources(this.txtPass, "txtPass");
             this.txtPass.Name = "txtPass";
+            this.txtPass.TextChanged += new System.EventHandler(this.txtPass_TextChanged);
             // 
             // btnLogin
             // 
@@ -111,11 +118,13 @@
             this.cbSaveInfo.CheckState = System.Windows.Forms.CheckState.Checked;
             this.cbSaveInfo.Name = "cbSaveInfo";
             this.cbSaveInfo.UseVisualStyleBackColor = true;
+            this.cbSaveInfo.CheckedChanged += new System.EventHandler(this.cbSaveInfo_CheckedChanged);
             // 
             // label5
             // 
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // txtDatabaseName
             // 
@@ -127,6 +136,7 @@
             // 
             resources.ApplyResources(this.lbldata, "lbldata");
             this.lbldata.Name = "lbldata";
+            this.lbldata.Click += new System.EventHandler(this.lbldata_Click);
             // 
             // LoginSQL
             // 

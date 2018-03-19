@@ -87,7 +87,6 @@ C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\De
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.exe
 C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.pdb
-=======
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
 >>>>>>> 6e022eb18538a77e4937ffc36baa5dd4f0c3babd
