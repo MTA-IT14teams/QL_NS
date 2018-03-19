@@ -56,3 +56,4 @@ C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.Generat
 =======
 C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
 >>>>>>> 1302c566aab03e7ad676221243633e6597250892
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
