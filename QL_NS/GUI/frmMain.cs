@@ -93,5 +93,10 @@ namespace QL_NS
             GUI.frmNhanVien nv = new GUI.frmNhanVien();
             nv.Show();
         }
+
+        private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+
+        }
     }
 }
