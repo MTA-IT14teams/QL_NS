@@ -1,0 +1,93 @@
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\bin\Debug\QL_NS.exe.config
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.exe
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\bin\Debug\QL_NS.exe
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\bin\Debug\QL_NS.pdb
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.frmMain.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+C:\Users\vuman\Desktop\QL_NS\QL_NS-master\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+=======
+C:\Users\vuman\Desktop\GITHUB\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+>>>>>>> 1302c566aab03e7ad676221243633e6597250892
+C:\Users\Administrator\Desktop\TTN-NS\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+>>>>>>> b570de76e52a4c04970ca730c1a9ca4ca5333bb8
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Thực tập nhóm_TH14\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+>>>>>>> e5293b0f18b63472dbe05cabc88a67f3d2bde089
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\bin\Debug\QL_NS.exe.config
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\bin\Debug\QL_NS.exe
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\bin\Debug\QL_NS.pdb
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.frmMain.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.exe
+C:\Users\ADMIN\Desktop\Ki 2 Nam 3\Thuc Tap Nhom\ThucTapNhom(github)\QL_NS\obj\Debug\QL_NS.pdb
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+>>>>>>> 6e022eb18538a77e4937ffc36baa5dd4f0c3babd
+>>>>>>> 0a1cd9ae067f2d587ba5a1897663b8de08a2c162
