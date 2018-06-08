@@ -13,6 +13,7 @@ namespace QL_NS.GUI
 {
     public partial class frm_DuAn : Form
     {
+        DataTable dt;
         bool themmoi = false;
         int dong = -1;
         public frm_DuAn()
@@ -40,7 +41,7 @@ namespace QL_NS.GUI
             string sql = "Select *from DuAn";
             SqlCommand comm = new SqlCommand(sql, conn);
             SqlDataAdapter da = new SqlDataAdapter(comm);
-            DataTable dt = new DataTable();
+            dt = new DataTable();
             da.Fill(dt);
             dgvDA.DataSource = dt;
             conn.Close();
@@ -56,7 +57,7 @@ namespace QL_NS.GUI
             SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
             conn.Open();
             string strSQL = "select * from PhongBan";
-            DataTable dt = new DataTable();
+            dt = new DataTable();
             SqlDataAdapter sqlDa = new SqlDataAdapter(strSQL, conn);
             sqlDa.Fill(dt);
             cbTenPB.DataSource = dt;
@@ -71,7 +72,7 @@ namespace QL_NS.GUI
             string sql = "Select * from DuAn";
             SqlCommand comm = new SqlCommand(sql, conn);
             SqlDataAdapter da = new SqlDataAdapter(comm);
-            DataTable dt = new DataTable();
+            dt = new DataTable();
             da.Fill(dt);
             dgvDA.DataSource = dt;
             conn.Close();
@@ -111,7 +112,7 @@ namespace QL_NS.GUI
             string sql = "select MaDA from DuAn";
             SqlCommand cmd = new SqlCommand(sql, conn);
             SqlDataAdapter da = new SqlDataAdapter(cmd);
-            DataTable dt = new DataTable();
+            dt = new DataTable();
             da.Fill(dt);
 
             string ma = "";
@@ -299,6 +300,28 @@ namespace QL_NS.GUI
                     MessageBox.Show("Lỗi" + ex.Message);
                 }
             }
+        }
+
+        private void txt_TenDuAn_Click(object sender, EventArgs e)
+        {
+            txt_TenDuAn.Text = "";
+        }
+
+        private void txt_MaDuAn_Click(object sender, EventArgs e)
+        {
+            txt_MaDuAn.Text = "";
+        }
+
+        private void txt_TenDuAn_TextChanged(object sender, EventArgs e)
+        {
+            string tenda = string.Format("[TenDA] like '%{0}%'", txt_TenDuAn.Text);
+            dt.DefaultView.RowFilter = tenda;
+        }
+
+        private void txt_MaDuAn_TextChanged(object sender, EventArgs e)
+        {
+            string mada = string.Format("[MaDA] like '%{0}%'", txt_MaDuAn.Text);
+            dt.DefaultView.RowFilter = mada;
         }
     }
 }
