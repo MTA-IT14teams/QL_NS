@@ -109,5 +109,11 @@ namespace QL_NS
             GUI.PhanCong nv = new GUI.PhanCong();
             nv.Show();
         }
+
+        private void dựÁnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUI.frm_DuAn nv = new GUI.frm_DuAn();
+            nv.Show();
+        }
     }
 }

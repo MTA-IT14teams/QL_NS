@@ -222,6 +222,7 @@
             this.dựÁnToolStripMenuItem.Name = "dựÁnToolStripMenuItem";
             this.dựÁnToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
             this.dựÁnToolStripMenuItem.Text = "Dự Án";
+            this.dựÁnToolStripMenuItem.Click += new System.EventHandler(this.dựÁnToolStripMenuItem_Click);
             // 
             // phânCôngDựÁnToolStripMenuItem
             // 

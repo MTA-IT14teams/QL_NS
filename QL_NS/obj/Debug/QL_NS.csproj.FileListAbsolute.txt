@@ -106,3 +106,4 @@ E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS
 E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
 E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
 E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.PhanCong.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frm_DuAn.resources
