@@ -22,12 +22,18 @@
 	font-size: 18px;
 } */
 .imgmenu{
-	margin-left:300px;
+	margin-left:280px;
 }
 
 .imgNhanVien{
-	margin-left:230px;
+	margin-left:200px;
 }
 .imgPhongBan{
+	margin-left:200px;
+}
+.imgDuAn{
+	margin-left:230px;
+}
+.imgPhanCong{
 	margin-left:230px;
 }
