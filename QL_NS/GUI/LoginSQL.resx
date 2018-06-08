@@ -237,7 +237,7 @@
     <value>1</value>
   </data>
   <data name="txtServerName.Text" xml:space="preserve">
-    <value>ADMIN-PC\SQLSERVEREXPRESS</value>
+    <value>.</value>
   </data>
   <data name="&gt;&gt;txtServerName.Name" xml:space="preserve">
     <value>txtServerName</value>

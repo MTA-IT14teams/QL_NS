@@ -91,3 +91,17 @@ E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.
 E:\ThucTapNhom\Project\QuanLiNhanSu\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
 >>>>>>> 6e022eb18538a77e4937ffc36baa5dd4f0c3babd
 >>>>>>> 0a1cd9ae067f2d587ba5a1897663b8de08a2c162
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\bin\Debug\QL_NS.exe.config
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.pdb
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\bin\Debug\QL_NS.exe
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\bin\Debug\QL_NS.pdb
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.csprojResolveAssemblyReference.cache
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmChangePass.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.frmMain.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmLogin.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmPhongBan.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.LoginSQL.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.GUI.frmNhanVien.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.Properties.Resources.resources
+E:\Nam_3_Kỳ2\Thuctapnhom\Project de day len GitHub\QL_NS\QL_NS\obj\Debug\QL_NS.csproj.GenerateResource.Cache
