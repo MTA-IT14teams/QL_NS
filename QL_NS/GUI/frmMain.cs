@@ -104,5 +104,10 @@ namespace QL_NS
 
         }
 
+        private void phânCôngDựÁnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            GUI.PhanCong nv = new GUI.PhanCong();
+            nv.Show();
+        }
     }
 }

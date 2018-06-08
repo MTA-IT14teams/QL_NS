@@ -49,6 +49,12 @@
   <ItemGroup>
     <Compile Include="ENTITY\Connect.cs" />
     <Compile Include="ENTITY\ConnectString.cs" />
+    <Compile Include="GUI\DuAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DuAn.Designer.cs">
+      <DependentUpon>DuAn.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\frmChangePass.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,6 +91,12 @@
     <Compile Include="GUI\NhanVien.Designer.cs">
       <DependentUpon>NhanVien.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\PhanCong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PhanCong.Designer.cs">
+      <DependentUpon>PhanCong.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GUI\frmChangePass.resx">
@@ -105,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\NhanVien.resx">
       <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PhanCong.resx">
+      <DependentUpon>PhanCong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
