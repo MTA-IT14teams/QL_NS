@@ -64,7 +64,7 @@ namespace QL_NS.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+               // MessageBox.Show(ex.Message);
             }
         }
 
@@ -76,7 +76,7 @@ namespace QL_NS.GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message);
+                //MessageBox.Show(ex.Message);
             }
         }
 
@@ -86,7 +86,7 @@ namespace QL_NS.GUI
             {
                 SqlConnection conn = new SqlConnection(ENTITY.ConnectString.StringConnect);
                 conn.Open();
-                string sua = "update PhanCong set MaNV = '" + txtMaNV.Text.Trim() + "',MaDA = '" + txtMaDA.Text.Trim() + "',SoGio = '" + txtSoGio.Text.Trim() + "'";
+                string sua = "update PhanCong set MaNV = '" + txtMaNV.Text.Trim() + "',MaDA = '" + txtMaDA.Text.Trim() + "',SoGio = '" + txtSoGio.Text.Trim() + "' where  MaNV = '" + txtMaNV.Text.Trim() + "'";
                 SqlCommand comm = new SqlCommand(sua, conn);
                 SqlDataAdapter daSua = new SqlDataAdapter(comm);
                 DataTable dt = new DataTable();

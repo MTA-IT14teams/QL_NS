@@ -165,7 +165,7 @@
             this.SoGio});
             this.dgvPC.Location = new System.Drawing.Point(219, 167);
             this.dgvPC.Name = "dgvPC";
-            this.dgvPC.Size = new System.Drawing.Size(608, 213);
+            this.dgvPC.Size = new System.Drawing.Size(608, 255);
             this.dgvPC.TabIndex = 69;
             this.dgvPC.SelectionChanged += new System.EventHandler(this.dgvPC_SelectionChanged);
             // 
@@ -232,6 +232,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightCyan;
             this.ClientSize = new System.Drawing.Size(982, 466);
             this.Controls.Add(this.txtSoGio);
             this.Controls.Add(this.txtTimKiem);
