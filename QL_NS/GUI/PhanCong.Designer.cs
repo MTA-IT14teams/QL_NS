@@ -51,14 +51,14 @@
             // 
             // txtSoGio
             // 
-            this.txtSoGio.Location = new System.Drawing.Point(34, 307);
+            this.txtSoGio.Location = new System.Drawing.Point(86, 315);
             this.txtSoGio.Name = "txtSoGio";
             this.txtSoGio.Size = new System.Drawing.Size(127, 20);
             this.txtSoGio.TabIndex = 77;
             // 
             // txtTimKiem
             // 
-            this.txtTimKiem.Location = new System.Drawing.Point(552, 124);
+            this.txtTimKiem.Location = new System.Drawing.Point(604, 132);
             this.txtTimKiem.Name = "txtTimKiem";
             this.txtTimKiem.Size = new System.Drawing.Size(113, 20);
             this.txtTimKiem.TabIndex = 76;
@@ -70,7 +70,7 @@
             this.btnTimKiem.ForeColor = System.Drawing.Color.Black;
             this.btnTimKiem.Image = ((System.Drawing.Image)(resources.GetObject("btnTimKiem.Image")));
             this.btnTimKiem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnTimKiem.Location = new System.Drawing.Point(671, 111);
+            this.btnTimKiem.Location = new System.Drawing.Point(723, 119);
             this.btnTimKiem.Name = "btnTimKiem";
             this.btnTimKiem.Size = new System.Drawing.Size(104, 42);
             this.btnTimKiem.TabIndex = 75;
@@ -86,7 +86,7 @@
             this.btnRefresh.ForeColor = System.Drawing.Color.Black;
             this.btnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.Image")));
             this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRefresh.Location = new System.Drawing.Point(441, 111);
+            this.btnRefresh.Location = new System.Drawing.Point(493, 119);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(97, 42);
             this.btnRefresh.TabIndex = 74;
@@ -102,7 +102,7 @@
             this.btnXoa.ForeColor = System.Drawing.Color.Black;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(352, 111);
+            this.btnXoa.Location = new System.Drawing.Point(404, 119);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(83, 42);
             this.btnXoa.TabIndex = 73;
@@ -118,7 +118,7 @@
             this.btnSua.ForeColor = System.Drawing.Color.Black;
             this.btnSua.Image = ((System.Drawing.Image)(resources.GetObject("btnSua.Image")));
             this.btnSua.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSua.Location = new System.Drawing.Point(263, 111);
+            this.btnSua.Location = new System.Drawing.Point(315, 119);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(83, 42);
             this.btnSua.TabIndex = 72;
@@ -135,7 +135,7 @@
             this.btnThem.ForeColor = System.Drawing.Color.Black;
             this.btnThem.Image = ((System.Drawing.Image)(resources.GetObject("btnThem.Image")));
             this.btnThem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnThem.Location = new System.Drawing.Point(167, 111);
+            this.btnThem.Location = new System.Drawing.Point(219, 119);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(90, 42);
             this.btnThem.TabIndex = 71;
@@ -149,7 +149,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(256, 34);
+            this.label4.Location = new System.Drawing.Point(308, 42);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(270, 37);
             this.label4.TabIndex = 70;
@@ -163,7 +163,7 @@
             this.MaNV,
             this.MaDA,
             this.SoGio});
-            this.dgvPC.Location = new System.Drawing.Point(167, 159);
+            this.dgvPC.Location = new System.Drawing.Point(219, 167);
             this.dgvPC.Name = "dgvPC";
             this.dgvPC.Size = new System.Drawing.Size(608, 213);
             this.dgvPC.TabIndex = 69;
@@ -189,14 +189,14 @@
             // 
             // txtMaDA
             // 
-            this.txtMaDA.Location = new System.Drawing.Point(34, 248);
+            this.txtMaDA.Location = new System.Drawing.Point(86, 256);
             this.txtMaDA.Name = "txtMaDA";
             this.txtMaDA.Size = new System.Drawing.Size(127, 20);
             this.txtMaDA.TabIndex = 68;
             // 
             // txtMaNV
             // 
-            this.txtMaNV.Location = new System.Drawing.Point(34, 190);
+            this.txtMaNV.Location = new System.Drawing.Point(86, 198);
             this.txtMaNV.Name = "txtMaNV";
             this.txtMaNV.Size = new System.Drawing.Size(127, 20);
             this.txtMaNV.TabIndex = 67;
@@ -204,7 +204,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(-22, 310);
+            this.label3.Location = new System.Drawing.Point(30, 318);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 66;
@@ -213,7 +213,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(-22, 255);
+            this.label2.Location = new System.Drawing.Point(30, 263);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 65;
@@ -222,7 +222,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(-22, 197);
+            this.label1.Location = new System.Drawing.Point(30, 205);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(40, 13);
             this.label1.TabIndex = 64;
