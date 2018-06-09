@@ -54,6 +54,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.tênHàngHóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.txt_TenDuAn = new System.Windows.Forms.ToolStripTextBox();
+            this.btnXuatExcel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDA)).BeginInit();
             this.menuStrip2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -73,7 +74,7 @@
             this.btnRefresh.ForeColor = System.Drawing.Color.Black;
             this.btnRefresh.Image = ((System.Drawing.Image)(resources.GetObject("btnRefresh.Image")));
             this.btnRefresh.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRefresh.Location = new System.Drawing.Point(596, 127);
+            this.btnRefresh.Location = new System.Drawing.Point(630, 127);
             this.btnRefresh.Name = "btnRefresh";
             this.btnRefresh.Size = new System.Drawing.Size(97, 42);
             this.btnRefresh.TabIndex = 88;
@@ -88,9 +89,9 @@
             this.btnXoa.ForeColor = System.Drawing.Color.Black;
             this.btnXoa.Image = ((System.Drawing.Image)(resources.GetObject("btnXoa.Image")));
             this.btnXoa.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnXoa.Location = new System.Drawing.Point(507, 127);
+            this.btnXoa.Location = new System.Drawing.Point(498, 127);
             this.btnXoa.Name = "btnXoa";
-            this.btnXoa.Size = new System.Drawing.Size(83, 42);
+            this.btnXoa.Size = new System.Drawing.Size(76, 42);
             this.btnXoa.TabIndex = 87;
             this.btnXoa.Text = "Xóa";
             this.btnXoa.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -155,7 +156,7 @@
             this.DiaDiem});
             this.dgvDA.Location = new System.Drawing.Point(230, 175);
             this.dgvDA.Name = "dgvDA";
-            this.dgvDA.Size = new System.Drawing.Size(686, 251);
+            this.dgvDA.Size = new System.Drawing.Size(724, 251);
             this.dgvDA.TabIndex = 83;
             this.dgvDA.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvDA_CellClick);
             // 
@@ -251,7 +252,7 @@
             this.btnLuu.ForeColor = System.Drawing.Color.Black;
             this.btnLuu.Image = ((System.Drawing.Image)(resources.GetObject("btnLuu.Image")));
             this.btnLuu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLuu.Location = new System.Drawing.Point(424, 127);
+            this.btnLuu.Location = new System.Drawing.Point(415, 127);
             this.btnLuu.Name = "btnLuu";
             this.btnLuu.Size = new System.Drawing.Size(77, 42);
             this.btnLuu.TabIndex = 94;
@@ -266,7 +267,7 @@
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.txt_MaDuAn});
-            this.menuStrip2.Location = new System.Drawing.Point(707, 145);
+            this.menuStrip2.Location = new System.Drawing.Point(741, 142);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(216, 27);
             this.menuStrip2.TabIndex = 96;
@@ -292,7 +293,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tênHàngHóaToolStripMenuItem,
             this.txt_TenDuAn});
-            this.menuStrip1.Location = new System.Drawing.Point(707, 118);
+            this.menuStrip1.Location = new System.Drawing.Point(741, 115);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(218, 27);
             this.menuStrip1.TabIndex = 95;
@@ -312,12 +313,25 @@
             this.txt_TenDuAn.Click += new System.EventHandler(this.txt_TenDuAn_Click);
             this.txt_TenDuAn.TextChanged += new System.EventHandler(this.txt_TenDuAn_TextChanged);
             // 
+            // btnXuatExcel
+            // 
+            this.btnXuatExcel.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.btnXuatExcel.Image = ((System.Drawing.Image)(resources.GetObject("btnXuatExcel.Image")));
+            this.btnXuatExcel.Location = new System.Drawing.Point(580, 127);
+            this.btnXuatExcel.Name = "btnXuatExcel";
+            this.btnXuatExcel.Size = new System.Drawing.Size(44, 42);
+            this.btnXuatExcel.TabIndex = 114;
+            this.btnXuatExcel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnXuatExcel.UseVisualStyleBackColor = false;
+            this.btnXuatExcel.Click += new System.EventHandler(this.btnXuatExcel_Click);
+            // 
             // frm_DuAn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Azure;
-            this.ClientSize = new System.Drawing.Size(955, 438);
+            this.ClientSize = new System.Drawing.Size(993, 438);
+            this.Controls.Add(this.btnXuatExcel);
             this.Controls.Add(this.menuStrip2);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.btnLuu);
@@ -375,5 +389,6 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem tênHàngHóaToolStripMenuItem;
         private System.Windows.Forms.ToolStripTextBox txt_TenDuAn;
+        private System.Windows.Forms.Button btnXuatExcel;
     }
 }
